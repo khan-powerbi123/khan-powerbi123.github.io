@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Shoaib Khan | SQL · Python · Power BI Data Analyst</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+        content="Portfolio of Shoaib Khan, SQL & Power BI Data Analyst with experience in insurance, operations, and financial analytics." />
+  <style>
+    :root {
+      --bg: #f5f5f7;
+      --card-bg: #ffffff;
+      --text-main: #222222;
+      --text-muted: #555555;
+      --accent: #1f4e79;
+      --accent-soft: #e4edf5;
+      --border: #dddddd;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 32px 16px 48px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    header h1 {
+      font-size: 32px;
+      letter-spacing: 0.03em;
+      margin-bottom: 4px;
+    }
+
+    header p.subtitle {
+      font-size: 16px;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+
+    .tagline {
+      font-size: 14px;
+      color: var(--text-muted);
+      max-width: 640px;
+      margin: 0 auto 16px;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .links span {
+      color: var(--text-muted);
+    }
+
+    .pill {
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 12px;
+      display: inline-block;
+      margin-top: 6px;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1.2fr);
+      gap: 24px;
+    }
+
+    @media (max-width: 800px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin-bottom: 8px;
+      color: var(--accent);
+    }
+
+    p {
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 10px;
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      margin-bottom: 14px;
+    }
+
+    .card h3 {
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+
+    .card .meta {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+
+    ul {
+      padding-left: 18px;
+      font-size: 14px;
+    }
+
+    ul li {
+      margin-bottom: 4px;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 8px;
+      font-size: 13px;
+    }
+
+    .skills-group h3 {
+      font-size: 14px;
+      margin-bottom: 4px;
+      color: var(--text-main);
+    }
+
+    .skills-group ul {
+      padding-left: 16px;
+      margin-bottom: 0;
+    }
+
+    .project-links {
+      font-size: 13px;
+      margin-top: 4px;
+    }
+
+    .project-links a {
+      margin-right: 10px;
+    }
+
+    iframe {
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      margin-top: 8px;
+    }
+
+    .btn-link {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--accent);
+      font-size: 12px;
+      margin-top: 6px;
+    }
+
+    .footer-note {
+      font-size: 12px;
+      color: var(--text-muted);
+      text-align: center;
+      margin-top: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>Shoaib Khan</h1>
+      <p class="subtitle">SQL · Python · Power BI Data Analyst</p>
+      <p class="tagline">
+        Microsoft-certified Power BI Data Analyst with experience in SQL, DAX, and Python, focused on insurance, operations,
+        and financial analytics. I build clean data models and interactive dashboards that help teams make better decisions.
+      </p>
+      <div class="links">
+        <a href="mailto:shoaibkhan22@live.com">shoaibkhan22@live.com</a>
+        <span>•</span>
+        <a href="https://www.linkedin.com/in/shoaibkhan07" target="_blank" rel="noopener">LinkedIn</a>
+        <span>•</span>
+        <a href="https://github.com/khan-powerbi123" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <span class="pill">Open to Data / BI / Reporting Analyst roles · Milwaukee / Chicago (Hybrid)</span>
+    </header>
+
+    <main>
+      <!-- LEFT SIDE: ABOUT + EXPERIENCE + PROJECTS -->
+      <div>
+        <section id="about">
+          <h2>About</h2>
+          <div class="card">
+            <p>
+              I’m a Business Analyst turned Data / BI Analyst with experience in workers’ compensation and auto insurance
+              (Zurich North America), supply chain analytics (US Foods), and portfolio projects built with SQL Server,
+              Python (pandas), and Power BI.
+            </p>
+            <p>
+              I enjoy taking messy data, shaping it into simple models, and building dashboards that non-technical stakeholders
+              can actually use to run their business.
+            </p>
+          </div>
+        </section>
+
+        <section id="experience">
+          <h2>Experience</h2>
+
+          <div class="card">
+            <h3>Zurich North America – Business / Data Analyst (Workers’ Compensation)</h3>
+            <div class="meta">Feb 2021 – Aug 2022 · Schaumburg, IL</div>
+            <ul>
+              <li>Supported full-cycle claims analytics for workers’ compensation and auto insurance lines using SQL and Excel.</li>
+              <li>Collaborated with developers, QA, and product owners in an Agile setup for system enhancements and UAT testing.</li>
+              <li>Designed automated Power BI dashboards and SQL reports to track KPIs, project metrics, and SLA performance.</li>
+              <li>Improved data quality by validating claims datasets, identifying anomalies, and resolving reporting issues.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>US Foods – Business Analyst (Operations / Supply Chain)</h3>
+            <div class="meta">Mar 2020 – Jan 2021 · Rosemont, IL</div>
+            <ul>
+              <li>Worked with stakeholders in sales, finance, and supply chain to gather reporting and KPI requirements.</li>
+              <li>Supported data validation and performance reporting for sales and operations dashboards.</li>
+              <li>Contributed to process optimization initiatives and department communication using data insights.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Mobilink (VoIP) – Business Development Executive</h3>
+            <div class="meta">Jan 2016 – Dec 2018 · Karachi, PK</div>
+            <ul>
+              <li>Managed international carrier partnerships and routing agreements for wholesale VoIP traffic.</li>
+              <li>Collaborated with technical teams to monitor traffic performance and resolve quality issues.</li>
+              <li>Drove business expansion through KPI tracking and market analysis.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="projects">
+          <h2>Projects – Live Dashboards</h2>
+
+          <!-- Severity & Leakage -->
+          <div class="card">
+            <h3>Commercial Insurance Severity & Leakage Dashboard</h3>
+            <div class="meta">SQL Server · Power BI · Workers’ Compensation</div>
+            <p>
+              End-to-end SQL and Power BI solution to analyze claim severity, potential leakage, and high-risk patterns across
+              workers’ compensation claims. Built a staged → core → mart model and interactive dashboard used to explore severity
+              buckets and leakage “clues”.
+            </p>
+            <ul>
+              <li>Modeled claims, policy, payment, and reserve data in SQL Server.</li>
+              <li>Created DAX measures for loss ratio, severity buckets, and leakage indicators.</li>
+              <li>Helped stakeholders focus on outlier claims and potential leakage drivers.</li>
+            </ul>
+            <div class="project-links">
+              <a class="btn-link"
+                 href="https://app.powerbi.com/links/zP8xhgsP6a?ctid=52d48b4c-a96a-4957-8557-71bd33686f3a&amp;pbi_source=linkShare"
+                 target="_blank" rel="noopener">
+                View full dashboard
+              </a>
+            </div>
+            <iframe title="Severity & Leakage Dashboard"
+                    width="100%" height="430"
+                    src="https://app.powerbi.com/links/zP8xhgsP6a?ctid=52d48b4c-a96a-4957-8557-71bd33686f3a&amp;pbi_source=linkShare"
+                    frameborder="0" allowFullScreen="true"></iframe>
+          </div>
+
+          <!-- ServiceNow SLA -->
+          <div class="card">
+            <h3>ServiceNow IT Incident SLA Breach Analysis</h3>
+            <div class="meta">Python (pandas) · Power BI · ITSM</div>
+            <p>
+              Used Python to analyze ServiceNow incident data (handle time, SLA thresholds, breach patterns), then built a Power BI
+              dashboard highlighting breach rates, backlog, and high-risk queues by priority and assignment group.
+            </p>
+            <ul>
+              <li>Cleaned and transformed raw CSV data in Python, calculating SLA breach flags and handle_time_hours.</li>
+              <li>Modeled incidents by priority, assignment group, and status for reporting.</li>
+              <li>Delivered visuals showing breach trends, open backlog, and at-risk queues.</li>
+            </ul>
+            <div class="project-links">
+              <a class="btn-link"
+                 href="https://app.powerbi.com/links/cmhygH5Fps?ctid=52d48b4c-a96a-4957-8557-71bd33686f3a&amp;pbi_source=linkShare"
+                 target="_blank" rel="noopener">
+                View full dashboard
+              </a>
+            </div>
+            <iframe title="ServiceNow SLA Breach Dashboard"
+                    width="100%" height="430"
+                    src="https://app.powerbi.com/links/cmhygH5Fps?ctid=52d48b4c-a96a-4957-8557-71bd33686f3a&amp;pbi_source=linkShare"
+                    frameborder="0" allowFullScreen="true"></iframe>
+          </div>
+
+          <!-- Regal Rexnord -->
+          <div class="card">
+            <h3>Regal Rexnord Operational & Financial Performance Dashboard</h3>
+            <div class="meta">Power BI · Manufacturing · PES / IPS / AMC</div>
+            <p>
+              Multi-page Power BI report combining operational metrics (shipments, orders, cycle times) with financial KPIs
+              (sales, COGS, gross margin %, book-to-bill) across PES, IPS, and AMC product lines.
+            </p>
+            <ul>
+              <li>Designed a star-schema model for orders, shipments, and products.</li>
+              <li>Created DAX measures for gross margin, bookings vs shipments, and average days from booking to shipment.</li>
+              <li>Enabled leadership to monitor capacity, throughput, and profitability in one place.</li>
+            </ul>
+            <div class="project-links">
+              <a class="btn-link"
+                 href="https://app.powerbi.com/links/e4aOwTeq86?ctid=52d48b4c-a96a-4957-8557-71bd33686f3a&amp;pbi_source=linkShare"
+                 target="_blank" rel="noopener">
+                View full dashboard
+              </a>
+            </div>
+            <iframe title="Regal Rexnord Dashboard"
+                    width="100%" height="430"
+                    src="https://app.powerbi.com/links/e4aOwTeq86?ctid=52d48b4c-a96a-4957-8557-71bd33686f3a&amp;pbi_source=linkShare"
+                    frameborder="0" allowFullScreen="true"></iframe>
+          </div>
+
+          <!-- Salesforce Revenue Insights -->
+          <div class="card">
+            <h3>Salesforce Revenue Insights</h3>
+            <div class="meta">Power BI · Salesforce · Pipeline Analytics</div>
+            <p>
+              Power BI dashboard built on Salesforce opportunity data to track total revenue, win rate, average deal size,
+              forecasted pipeline, and revenue by industry and account type.
+            </p>
+            <ul>
+              <li>Modeled opportunity pipeline data for closed-won, lost, and open deals.</li>
+              <li>Created visuals for revenue by industry, account type, and month/close date.</li>
+              <li>Designed a management-friendly view of pipeline health and sales performance.</li>
+            </ul>
+            <div class="project-links">
+              <a class="btn-link"
+                 href="https://app.powerbi.com/links/G_5MuRdhpC?ctid=52d48b4c-a96a-4957-8557-71bd33686f3a&amp;pbi_source=linkShare"
+                 target="_blank" rel="noopener">
+                View full dashboard
+              </a>
+            </div>
+            <iframe title="Salesforce Revenue Insights"
+                    width="100%" height="430"
+                    src="https://app.powerbi.com/links/G_5MuRdhpC?ctid=52d48b4c-a96a-4957-8557-71bd33686f3a&amp;pbi_source=linkShare"
+                    frameborder="0" allowFullScreen="true"></iframe>
+          </div>
+        </section>
+      </div>
+
+      <!-- RIGHT SIDE: SKILLS + EDUCATION + RESUME/CONTACT -->
+      <div>
+        <section id="skills">
+          <h2>Skills</h2>
+          <div class="card">
+            <div class="skills-grid">
+              <div class="skills-group">
+                <h3>Data & Tools</h3>
+                <ul>
+                  <li>SQL Server · T-SQL</li>
+                  <li>Power BI (DAX, Modeling)</li>
+                  <li>Power Query / ETL</li>
+                  <li>Excel (Pivot Tables)</li>
+                </ul>
+              </div>
+              <div class="skills-group">
+                <h3>Programming</h3>
+                <ul>
+                  <li>Python (pandas, matplotlib)</li>
+                  <li>Data cleaning & wrangling</li>
+                  <li>Basic statistics (t-tests, ANOVA)</li>
+                </ul>
+              </div>
+              <div class="skills-group">
+                <h3>Business & Domain</h3>
+                <ul>
+                  <li>Workers’ comp & auto insurance claims</li>
+                  <li>Operations & supply chain KPIs</li>
+                  <li>Requirements, UAT, Agile / JIRA</li>
+                </ul>
+              </div>
+              <div class="skills-group">
+                <h3>Currently Learning</h3>
+                <ul>
+                  <li>Azure Synapse / Modern DW</li>
+                  <li>Advanced Python for analytics</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="education">
+          <h2>Education & Certifications</h2>
+          <div class="card">
+            <h3>MBA – Concordia University Chicago</h3>
+            <div class="meta">Business Management (IoBM undergraduate background)</div>
+
+            <h3 style="margin-top:8px;">Certifications</h3>
+            <ul>
+              <li>Microsoft Certified: Power BI Data Analyst (PL-300)</li>
+              <li>MS SQL Server – LearnSQL.com</li>
+              <li>Data Analysis in Python – DataCamp</li>
+              <li>Python for Data Science – IBM</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="resume">
+          <h2>Resume</h2>
+          <div class="card">
+            <p>
+              Download a copy of my one-page resume:
+            </p>
+            <p>
+              <!-- After you upload your PDF to this repo, rename it here -->
+              <a href="ShoaibKhan_Data_Analyst_Resume.pdf" target="_blank" rel="noopener">
+                Download Resume (PDF)
+              </a>
+            </p>
+            <p class="meta">
+              Place your PDF in this GitHub Pages repository so this link works.
+            </p>
+          </div>
+        </section>
+
+        <section id="contact">
+          <h2>Contact</h2>
+          <div class="card">
+            <p>Email: <a href="mailto:shoaibkhan22@live.com">shoaibkhan22@live.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/shoaibkhan07" target="_blank" rel="noopener">linkedin.com/in/shoaibkhan07</a></p>
+            <p>GitHub: <a href="https://github.com/khan-powerbi123" target="_blank" rel="noopener">github.com/khan-powerbi123</a></p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div class="footer-note">
+      Built with HTML/CSS and hosted on GitHub Pages · Shoaib Khan
+    </div>
+  </div>
+</body>
+</html>
